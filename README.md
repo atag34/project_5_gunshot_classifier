@@ -15,3 +15,4 @@ The model is then built using a similar architecture outlined in a talk [found h
 
 ## Live Streaming Audio
 Using the `sounddevice` library we can create a running while loop that record audio from a computers output and do roling classifications in .25 second increments. I then save them to list of 4 increments and calculate an average of all of the class predictions. The end result is a running average of model outputs over the past 1 second of sound that updates every .25 seconds. 
+![example](https://github.com/atag34/project_5_gunshot_classifier/blob/main/streaming_example.PNG)
